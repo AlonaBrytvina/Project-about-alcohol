@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Учимся верстать</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="index.css" rel='stylesheet'>
+
+</head>
+
+<body>
+    <h1 class='heading'>Окунемся в мир алкогольных напитков </h1>
+    <p class='push'>Нажмите на один из трех алкогольных коктейлей расположенных на переднем плане</p>
+    <div class='mainpicture'> <img src='alkogol.jpg' alt='alkogol' width='500' height='379' usemap='#alkogol'>
+        <map name='alkogol'>
+
+            <area shape='rect' coords='53, 63, 113, 197' href='vermouth.html' onclick='myFunction("вермутом")'>
+            <area shape='rect' coords='189, 77, 309, 199' href='whisky.html' onclick='myFunction("виски")'>
+            <area shape='rect' coords='335, 209, 456, 334' href='absinthe.html' onclick='myFunction("абсентом")'>
+    </div>
+    <script src='jaascript.js'></script>
+</body>
+
+</html>
